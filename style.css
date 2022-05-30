@@ -1,76 +1,31 @@
-body {
-	align-items: center;
-    text-align: center;
-	background-color: beige
-    
-
+body{
+text-align: center;
+color: maroon;
+background-color: beige;
+    font-size: 20px;
+}  
+#image1{
+width: 727px;
+border: 2px;
 }
 
-h1 {
-
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: 300;
-
+h1{
+    font-family: 'Rubik', sans-serif;
 }
-
-#SEQUENCE {
-	align-items: center;
-    width: 100%;
-    height: 550px;
-    background-color: palegoldenrod;
-
+a {
+     background-color:whitesmoke;
+    font-family: 'Trirong', serif;
+  font-size: 20px;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: green;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-
-
-
-#ALGORITHM{
-    width: 100%;
-    height: 550px;
-    background-color:lightsalmon;
-
+a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: darkblue;
 }
-#VARIABLE{
-    width: 100%;
-    height: 550px;
-    background-color:lightseagreen;
-
-}
-#LOOPS{
-    width: 100%;
-    height: 900px;
-    background-color:palegoldenrod;
-
-}
-#FUNCTIONS{
-    width: 100%;
-    height: 550px;
-    background-color:lightsalmon;
-
-}
-
-#CODING{
-    width: 100%;
-    height: 550px;
-    background-color:lightseagreen;
-
-}
-
-
-
-}
-
-img {
-transition: transform .2s;
-}
-
-img:hover {
-    transform: scale(0.9);
-}
-
-.line {
-    height: 6px;
-    background-color: #000;
-    width: 400px;
-    margin: 8px auto;
+p{
+    color:green;
 }
